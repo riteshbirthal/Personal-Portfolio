@@ -23,8 +23,8 @@ function Navbar(){
         <>
             <div className="nav-bar">
                 <div className="logo">
-                    <img src="/static/images/logo.jpg" alt="logo" />
-                    <h1><span style={{color: "aqua"}}>Birthal</span>Tech</h1>
+                    <img src="/static/images/logo/logo5.png" alt="logo" />
+                    <h1><span style={{color: "aqua"}}>Ritesh</span> Birthal</h1>
                 </div>
 
                 <ul>

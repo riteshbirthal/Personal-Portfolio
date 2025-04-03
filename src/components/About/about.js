@@ -10,41 +10,56 @@ function About(){
     };
     return (
         <section id="about" className="info-section">
-            <h1 className="section-title autoDisplay">Professional Profile</h1>
-            <div className="info-cards">
-                <div className="card">
-                    <img src="/static/images/grid1.png" alt="card-image" />
-                    <h1>About Me</h1>
-                    <p>I'm Ritesh Birthal, an Associate Software Engineer III with Carelon Global Solutions. I craft robust, user-centric solutions by seamlessly integrating innovative design with efficient back-end functionality. My diverse project experience—from full-stack web apps to algorithm-driven utilities—reflects a commitment to quality and continuous learning.</p>
+            <h1 className="section-title autoDisplay">About</h1>
+            <div className="info-container">
+                <div className="col1">
+                    <div className="card-img">
+                        <img src="/static/images/Photo4.jpg" alt="Hi, I'm Ritesh Birthal - Full-Stack Developer" />
+                    </div>
 
-                </div>
-
-                <div className="card">
-                    <img src="static/images/grid2.png" alt="card-image" />
-                    <h1>Skills & Technologies</h1>
-                    <p>I work with a versatile tech stack including:
-                        <ul>
-                            <li>Programming Languages: Python, C, C++, JavaScript, PHP, SQL</li>
-                            <li>Frameworks & Libraries: React, Node.js, Express, FastAPI, Flask, Django, Streamlit, NumPy, Pandas, OpenCV</li>
-                            <li>Front-End Tools: HTML, CSS, WordPress, and various design frameworks</li>
-                        </ul>
+                    <div className="card">
+                        <h2>Technical Skills</h2>
+                        <p>I have extensive experience with a range of technologies across both front-end and back-end development. My primary technical skills include: C++, Python, JavaScript, React.js, FastAPI, Streamlit, MongoDB, etc.
                         </p>
+                        <button onClick={() => scrollToSection('skills')}><i className='bx bx-send' ></i> For More Info Click Here...</button>
+                    </div>
 
+
+                    <div className="card">
+                        <h2>Personal Attributes</h2>
+                        <p>I'm a problem-solver by nature. I believe in the power of continuous learning and always seek to stay updated with the latest advancements in software development. I am detail-oriented and take pride in writing clean, well-documented code that is easy to maintain and scale.</p>
+                        <p>In addition to my technical skills, I value collaboration and enjoy working with diverse teams to deliver the best possible solutions. I am open to feedback and constantly strive to improve my craft, whether through personal projects or professional experience.</p>
+                    </div>
                 </div>
+                <div className="col2">
+                    <div className="card">
+                        <h2>Introduction</h2>
+                        <p>I'm Ritesh Birthal, a passionate Full-Stack Developer with a deep interest in both front-end and back-end development. With a background in Physics from IIT Kanpur and experience at Carelon Global Solutions, I focus on creating high-performance, scalable, and user-friendly web applications. I thrive on solving complex problems and delivering high-quality solutions that align with user needs.</p>
+                    </div>
 
-                <div className="card">
-                    <video autoPlay loop muted playsInline src="/static/videos/glob.mp4" type="video/mp4"></video>
-                    <h1>Remote Collaboration & Global Flexibility</h1>
-                    <p>I excel in dynamic, distributed work environments. Highly adaptable across time zones and locations, I ensure seamless communication and effective collaboration with teams worldwide. This flexibility allows me to contribute effectively no matter where the project is based.</p>
+                    <div className="card">
+                        <h2>Education</h2>
+                        <p>I hold a BS-MS dual degree in Physics from the Indian Institute of Technology Kanpur, where I gained a strong foundation in computational sciences, data structures, algorithms, and software engineering principles. My coursework in machine learning, image processing, and advanced numerical methods has been invaluable in tackling real-world problems.</p>
+                    </div>
 
-                    <button onClick={() => scrollToSection('contact')}><i className='bx bx-link-external' ></i> Contact Me</button>
-                </div>
+                    <div className="card">
+                        <h2>Professional Experience</h2>
+                        <ul>
+                            <li>
+                                <h3>Software Engineer | Carelon Global Solutions</h3>
+                                <h4>July 2023 - Present</h4>
+                                <p>At Carelon Global Solutions, I have had the privilege to work on several high-impact projects. I developed full-stack applications using React and FastAPI, built real-time systems, and worked on data processing solutions to merge data from multiple sources. Notably, I contributed to the development of a chatbot and a real-time web chat application that improved user interaction for multiple clients.</p>
+                                <p>My role required a mix of strong front-end skills for seamless user interactions and back-end development to handle data processing and API development. I've worked with teams to design clear and efficient architecture, with an emphasis on performance, security, and maintainability.</p>
+                            </li>
+                            <li>
+                                <h3>Software Developer Intern | Techwink Services</h3>
+                                <h4>May 2021 - July 2021</h4>
+                                <p>During my internship at Techwink Services, I demonstrated my proficiency in front-end development by designing and developing responsive websites using WordPress. I worked extensively with WordPress plugins such as Elementor, Dokan, and WooCommerce to create user-friendly e-commerce sites and business platforms.</p>
+                                <p>In addition to the front-end work, I utilized HTML, CSS, JavaScript, and PHP to enhance website functionality and integrate secure payment systems for seamless online transactions. This internship helped me build a strong foundation in full-stack development and provided valuable insights into client-facing projects.</p>
+                            </li>
+                        </ul>
 
-                <div className="card">
-                    <img src="/static/images/grid4.png" alt="card-image" />
-                    <h1>My Coding Journey</h1>
-                    <p>Coding is not just my profession—it's my passion. I thrive on solving complex challenges, as evidenced by my 900+ solved LeetCode problems and a track record of impactful projects. I continually push myself to learn and innovate, making every project an opportunity to enhance my technical expertise. </p>
-
+                    </div>
                 </div>
             </div>
         </section>

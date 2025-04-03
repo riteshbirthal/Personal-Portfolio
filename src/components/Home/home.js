@@ -15,20 +15,20 @@ function Home(){
                     <div className="home-info-title">
                         <i className='bx bxl-sketch' ></i> Full-Stack Developer Portfolio
                     </div>
-                    <h1>Delivering <span className="gradient">Innovative</span> Solutions and <span className="gradient">Exceptional User Experiences</span></h1>
+                    <h1>Building <span className="gradient">Scalable</span> and   <span className="gradient">User-Centric Web Applications</span></h1>
     
-                    <p>Hi, I'm Ritesh Birthal, a Full-Stack Developer with a deep passion for building user-centric applications. With experience in front-end and back-end development, I specialize in React, FastAPI, Flask, and Python to create robust, scalable solutions. From developing real-time web applications to building secure backends, I am dedicated to delivering high-quality products.</p>
+                    <p>Hi, I'm Ritesh Birthal, a Full-Stack Developer with a passion for creating dynamic, user-centric web applications. I specialize in building end-to-end solutions with modern technologies like React, FastAPI, Flask, and Python. My expertise spans both front-end and back-end development, and I'm dedicated to crafting seamless user experiences and high-performing systems.</p>
                     
-                    <p>Having worked in various industries, including at Carelon Global Solutions, I have contributed to key projects that involve data processing, API development, and the implementation of complex features in diverse environments. My commitment to continuous learning drives me to stay updated with the latest technologies and best practices.</p>
+                    <p>Having worked in various industries, including at Carelon Global Solutions, I have contributed to key projects that involve data processing, API development, and the implementation of complex features in diverse environments. I take pride in writing clean, maintainable code and solving complex problems while staying updated with the latest tech trends and best practices. My commitment to continuous learning drives me to stay updated with the latest technologies and best practices.</p>
     
                     <button onClick={() => scrollToSection('contact')}><i className='bx bx-send' ></i> Contact Me</button>
                 </div>
     
                 <div className="home-img-box">
-                    <img src="/static/images/home-vid.gif" alt="home-image" />
+                    <img src="/static/images/Photo3.jpg" alt="Hi, I'm Ritesh Birthal - Full-Stack Developer" />
                 </div>
             </div>
-            <a href="#about"><div className="scroll-down"></div></a>
+            {/* <a href="#about"><div className="scroll-down"></div></a> */}
         </section>
     );
 }
