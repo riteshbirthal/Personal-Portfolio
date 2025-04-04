@@ -1,6 +1,28 @@
 import "./skills.css"
+import React from 'react';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 function Skills(){
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 2000,
+        slidesToShow: 10,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrows: false,
+        pauseOnHove: true,
+    };
+    
+    const skills_logos_list = [];
+
+    for(let i = 1; i < 39; i++){
+        skills_logos_list.push(`/static/images/skills-logos/${i}.png`);
+    }
+
     return (
         <section id="skills" className="skills-section">
             <h1 className="section-title autoDisplay">Skills</h1>
@@ -59,24 +81,14 @@ function Skills(){
                     </p>
                 </div>
 
-                <div className="slider" reverse="true" style={{
-                    "--width": "100px",
-                    "--height": "100px",
-                    "--quantity": 9
-                }}>
-                    <div className="list">
-                        <div className="item" style={{"--position": 1}}><img src="/static/images/1.png" alt="slider-image" /></div>
-                        <div className="item" style={{"--position": 2}}><img src="/static/images/2.png" alt="slider-image" /></div>
-                        <div className="item" style={{"--position": 3}}><img src="/static/images/3.png" alt="slider-image" /></div>
-                        <div className="item" style={{"--position": 4}}><img src="/static/images/4.png" alt="slider-image" /></div>
-                        <div className="item" style={{"--position": 5}}><img src="/static/images/5.png" alt="slider-image" /></div>
-                        <div className="item" style={{"--position": 6}}><img src="/static/images/6.png" alt="slider-image" /></div>
-                        <div className="item" style={{"--position": 7}}><img src="/static/images/7.png" alt="slider-image" /></div>
-                        <div className="item" style={{"--position": 8}}><img src="/static/images/8.png" alt="slider-image" /></div>
-                        <div className="item" style={{"--position": 9}}><img src="/static/images/logo.jpg" alt="slider-image" /></div>
-                    </div>
-                </div>
             </div>
+            <Slider {...settings} className="slider">
+                {skills_logos_list.map((logo, index) => (
+                    <div className="slider-image" key={index}>
+                        <img src={logo} alt={`Logo ${index}`} />
+                    </div>
+                ))}
+            </Slider>
         </section>
     );
 }

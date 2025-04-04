@@ -21,8 +21,86 @@
     z-index: 999;
     background-color: rgba(14, 19, 39, 0.938);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     box-shadow: none;
 }
+
+.project-card.collapsed{
+    flex-direction: column;
+}
+
+.project-image.collapsed{
+    justify-content: center;
+}
+
+.project-image img{
+    border-radius: 2rem;
+}
+
+.project-image.collapsed img{
+    width: 80%;
+    margin: 1rem 2rem;
+}
+
+.project-image.expanded img{
+    width: 80%;
+}
+
+.expanded.project-details{
+    width: 40%;
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+}
+
+.toggle-button.collapsed{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.toggle-button.expanded{
+    display: none;
+}
+
+.expand-button{
+    width: 100%;
+    font-size: 1.2rem;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #727fdeb4;
+    background-color: #2200493d;
+    box-shadow: 0 0 5px #727fde86;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.close-button{
+    position: fixed;
+    top: 2%;
+    right: 2%;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.project-link-button{
+    font-size: 1.2rem;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #727fdeb4;
+    background-color: #2200493d;
+    box-shadow: 0 0 5px #727fde86;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.project-link-button a{
+    text-decoration: none;
+}
+
