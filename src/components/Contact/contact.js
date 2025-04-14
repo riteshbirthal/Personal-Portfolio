@@ -53,10 +53,10 @@ function Contact(){
                 <div className="social-box autoBlur">
                     <h2>Important Links</h2>
                     <a href="https://www.linkedin.com/in/ritesh-birthal/"><i className='bx bxl-linkedin-square' ></i> Ritesh-Birthal</a>
-                    <a href="https://leetcode.com/u/riteshbirthal/"><img src="/static/images/profile-logos/leetcode.png" alt="Leetcode" /> LeetCode</a>
-                    <a href="https://www.geeksforgeeks.org/user/riteshbirthal/"><img src="/static/images/profile-logos/geeksforgeeks.png" alt="GFG" /> GeeksForGeeks
+                    <a href="https://leetcode.com/u/riteshbirthal/"><img src={`${process.env.PUBLIC_URL}/static/images/profile-logos/leetcode.png`} alt="Leetcode" /> LeetCode</a>
+                    <a href="https://www.geeksforgeeks.org/user/riteshbirthal/"><img src={`${process.env.PUBLIC_URL}/static/images/profile-logos/geeksforgeeks.png`} alt="GFG" /> GeeksForGeeks
                     </a>
-                    <a href="https://www.hackerrank.com/profile/riteshbirthal"><img src="/static/images/profile-logos/HackerRank.png" alt="HackerRank" /> HackerRank</a>
+                    <a href="https://www.hackerrank.com/profile/riteshbirthal"><img src={`${process.env.PUBLIC_URL}/static/images/profile-logos/HackerRank.png`} alt="HackerRank" /> HackerRank</a>
 
                     <div className="social-icons">
                         <a href="mailto:riteshbirthal@gmail.com"><i className='bx bxs-envelope' ></i></a>
