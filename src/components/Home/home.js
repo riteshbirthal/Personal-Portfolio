@@ -25,7 +25,7 @@ function Home(){
                 </div>
     
                 <div className="home-img-box">
-                    <img src="/static/images/Photo3.jpg" alt="Hi, I'm Ritesh Birthal - Full-Stack Developer" />
+                    <img src={`${process.env.PUBLIC_URL}/static/images/Photo3.jpg`} alt="Hi, I'm Ritesh Birthal - Full-Stack Developer" />
                 </div>
             </div>
             {/* <a href="#about"><div className="scroll-down"></div></a> */}

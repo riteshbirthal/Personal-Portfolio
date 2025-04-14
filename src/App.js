@@ -14,7 +14,7 @@ function App() {
 
         <video className="background-video"
           loop autoPlay muted playsInline
-          src="/static/videos/back-vid.mp4" type="video/mp4"
+          src={`${process.env.PUBLIC_URL}/static/videos/back-vid.mp4`} type="video/mp4"
         ></video>
 
         <Navbar />

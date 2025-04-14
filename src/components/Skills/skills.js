@@ -20,7 +20,7 @@ function Skills(){
     const skills_logos_list = [];
 
     for(let i = 1; i < 39; i++){
-        skills_logos_list.push(`/static/images/skills-logos/${i}.png`);
+        skills_logos_list.push(`${process.env.PUBLIC_URL}/static/images/skills-logos/${i}.png`);
     }
 
     return (
@@ -28,7 +28,7 @@ function Skills(){
             <h1 className="section-title autoDisplay">Skills</h1>
 
             <div className="skills-box">
-                <img className="skills-image" src="/static/images/digital brain.png" alt="skills-image" />
+                <img className="skills-image" src={`${process.env.PUBLIC_URL}/static/images/digital brain.png`} alt="skills-image" />
 
                 <div className="skills autoDisplay">
                     <h1 className="gradient">Tools & Technologies <i className='bx bx-laptop' ></i></h1>
