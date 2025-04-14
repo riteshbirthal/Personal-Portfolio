@@ -10,7 +10,7 @@ function Experience() {
           <div className="exp-card">
               <div className="job-meta-data">
                 <div className="company-logo">
-                  <img  src="/static/images/carelon_logo1.png" alt="Carelon Global Solutions" />
+                  <img  src={`${process.env.PUBLIC_URL}/static/images/carelon_logo1.png`} alt="Carelon Global Solutions" />
                 </div>
                 <div>
                   <h2>Software Engineer | Carelon Global Solutions</h2>
@@ -36,7 +36,7 @@ function Experience() {
           <div className="exp-card">
               <div className="job-meta-data">
                 <div className="company-logo">
-                  <img src="/static/images/TechWink_logo.jpg" alt="Techwink Services" />
+                  <img src={`${process.env.PUBLIC_URL}/static/images/TechWink_logo.jpg`} alt="Techwink Services" />
                 </div>
                 <div>
                   <h2>Software Developer Intern | Techwink Services</h2>

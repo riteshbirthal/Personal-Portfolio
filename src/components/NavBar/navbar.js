@@ -23,7 +23,7 @@ function Navbar(){
         <>
             <div className="nav-bar">
                 <div className="logo">
-                    <img src="/static/images/logo/logo5.png" alt="logo" />
+                    <img src={`${process.env.PUBLIC_URL}/static/images/logo/logo5.png`} alt="logo" />
                     <h1><span style={{color: "aqua"}}>Ritesh</span> Birthal</h1>
                 </div>
 

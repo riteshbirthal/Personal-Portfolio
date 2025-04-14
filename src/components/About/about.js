@@ -14,7 +14,7 @@ function About(){
             <div className="info-container">
                 <div className="col1">
                     <div className="card-img">
-                        <img src="/static/images/Photo4.jpg" alt="Hi, I'm Ritesh Birthal - Full-Stack Developer" />
+                        <img src={`${process.env.PUBLIC_URL}/static/images/Photo4.jpg`} alt="Hi, I'm Ritesh Birthal - Full-Stack Developer" />
                     </div>
 
                     <div className="card">

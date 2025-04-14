@@ -1,6 +1,6 @@
 const projects_list = [
     [
-        "/static/images/projects/chitchat.png",
+        `${process.env.PUBLIC_URL}/static/images/projects/chitchat.png`,
 
         "ChitChat Live (Real-Time Web Chat Application)",
 
@@ -23,7 +23,7 @@ const projects_list = [
         "#1"
     ],
     [
-        "/static/images/projects/sudoku1.png",
+        `${process.env.PUBLIC_URL}/static/images/projects/sudoku1.png`,
         
         "Sudoku Solver",
 
@@ -44,7 +44,7 @@ const projects_list = [
         "#1"
     ],
     [
-        "/static/images/projects/virtual-mouse.png",
+        `${process.env.PUBLIC_URL}/static/images/projects/virtual-mouse.png`,
         
         "Virtual Mouse",
 
@@ -65,7 +65,7 @@ const projects_list = [
         "#1"
     ],
     [
-        "/static/images/projects/restaurant1.png",
+        `${process.env.PUBLIC_URL}/static/images/projects/restaurant1.png`,
         
         "Restaurant App (Food Ordering and Table Reservation)",
 
@@ -87,7 +87,7 @@ const projects_list = [
         "#1"
     ],
     [
-        "/static/images/projects/voice-assistant1.png",
+        `${process.env.PUBLIC_URL}/static/images/projects/voice-assistant1.png`,
         
         "Voice Assistant",
 
