@@ -7,7 +7,7 @@ import Projects from './components/Projects/projects';
 import Skills from './components/Skills/skills';
 import Contact from './components/Contact/contact';
 import Footer from './components/Footer/footer';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
