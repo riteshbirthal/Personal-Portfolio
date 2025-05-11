@@ -21,11 +21,11 @@
 }
 
 .col1{
-    width: 40%;
+    width: 35%;
 }
 
 .col2{
-    width: 55%;
+    width: 65%;
 }
 
 .card{
@@ -44,7 +44,7 @@
 }
 
 .card-img img{
-    width: 15vw;
+    width: 20vw;
     border-radius: 2vw;
 }
 
@@ -69,6 +69,26 @@
 }
 
 @media  screen and (max-width: 1200px) {
+    .section-title{
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
     
+    .info-container{
+        flex-direction: column;
+    }
+    
+    .col1{
+        width: 100%;
+    }
+    
+    .col2{
+        width: 100%;
+    }
+    
+    .card-img img{
+        width: 70vw;
+        border-radius: 2vw;
+    }
 }
 
