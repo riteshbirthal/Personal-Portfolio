@@ -18,7 +18,7 @@ function App() {
           src={`${process.env.PUBLIC_URL}/static/videos/back-vid.mp4`} type="video/mp4"
         ></video>
 
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router >
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
