@@ -1,6 +1,6 @@
 .footer{
     display: flex;
-    position: relative;
+    position: fixed;
     bottom: 0;
     right: 0;
     left: 0;
@@ -11,7 +11,7 @@
     background-color: rgba(255, 255, 255, 0.123);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.356);
-    z-index: 999;
+    z-index: 1;
 }
 
 .footer h1{

@@ -25,7 +25,7 @@ function Skills(){
 
     return (
         <section id="skills" className="skills-section">
-            <h1 className="section-title autoDisplay">Skills</h1>
+            {/* <h1 className="section-title autoDisplay">Skills</h1> */}
 
             <div className="skills-box">
                 <img className="skills-image" src={`${process.env.PUBLIC_URL}/static/images/digital brain.png`} alt="skills-image" />

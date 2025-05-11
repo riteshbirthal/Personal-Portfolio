@@ -7,6 +7,7 @@ import Projects from './components/Projects/projects';
 import Skills from './components/Skills/skills';
 import Contact from './components/Contact/contact';
 import Footer from './components/Footer/footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -17,21 +18,18 @@ function App() {
           src={`${process.env.PUBLIC_URL}/static/videos/back-vid.mp4`} type="video/mp4"
         ></video>
 
-        <Navbar />
-
-        <Home />
-
-        <About />
-
-        <Experience />
-
-        <Projects />
-
-        <Skills />
-
-        <Contact />
-
-        <Footer />
+        <Router>
+            <Navbar />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/experience" element={<Experience />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/skills" element={<Skills />} />
+                <Route path="/contact" element={<Contact />} />
+            </Routes>
+            <Footer />
+        </Router>
     </div>
   );
 }

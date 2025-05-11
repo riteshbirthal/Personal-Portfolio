@@ -10,7 +10,7 @@ function About(){
     };
     return (
         <section id="about" className="info-section">
-            <h1 className="section-title autoDisplay">About</h1>
+            {/* <h1 className="section-title autoDisplay">About</h1> */}
             <div className="info-container">
                 <div className="col1">
                     <div className="card-img">

@@ -56,15 +56,15 @@
 }
 
 /* Tablet Responsive */
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1500px){
   .background-video{
       width: 100%;
-      height: auto;
+      height: 100%;
   }
 }
 
 /* Mobile Responsive */
-@media  screen and (max-width: 700px) {
+@media  screen and (max-width: 1000px) {
   .background-video{
       width: auto;
       height: 100%;

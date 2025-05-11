@@ -4,8 +4,8 @@
     flex-direction: column;
     align-items: center;
     width: 90%;
-    min-height: 100vh;
-    padding: 2rem;
+    height: 100vh;
+    /* padding-top: 2rem; */
   }
   
   .experience-title {
@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 10rem;
   }
   
   .exp-card {
