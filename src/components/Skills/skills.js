@@ -25,12 +25,11 @@ function Skills(){
 
     return (
         <section id="skills" className="skills-section">
-            {/* <h1 className="section-title autoDisplay">Skills</h1> */}
+            <h1 className="skills-title">Skills</h1>
 
             <div className="skills-box">
-                <img className="skills-image" src={`${process.env.PUBLIC_URL}/static/images/digital brain.png`} alt="skills-image" />
 
-                <div className="skills autoDisplay">
+                <div className="skills">
                     <h1 className="gradient">Tools & Technologies <i className='bx bx-laptop' ></i></h1>
                     <p> As a software engineer, I leverage a diverse set of tools and technologies to build efficient, scalable, and maintainable solutions. My toolkit spans various programming languages, frameworks, libraries, and utilities that help me deliver high-quality software across different domains—from web development to machine learning.
                         <ul>
@@ -57,7 +56,9 @@ function Skills(){
                     </p>
                 </div>
 
-                <div className="coder autoDisplay">
+                <img className="skills-image" src={`${process.env.PUBLIC_URL}/static/images/digital brain.png`} alt="skills-image" />
+
+                <div className="coder">
                     <h1 className="gradient">My Coding Journey <i className='bx bx-code-block' ></i></h1>
                     <p>Every coder has their own unique journey, and mine has been shaped by passion, challenges, and growth. From my early exposure to programming to solving complex algorithms and building real-world applications, my coding journey has been both rewarding and transformative. Here's a snapshot of how I've evolved:
                     <ul>

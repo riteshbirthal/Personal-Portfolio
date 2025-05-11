@@ -17,3 +17,16 @@
 .footer h1{
     font-size: 2rem;
 }
+
+@media  screen and (max-width: 1600px) {
+    
+}
+
+@media  screen and (max-width: 1200px) {
+    .footer{
+        height: 2rem;
+    }
+    .footer h1{
+        font-size: 1rem;
+    }
+}

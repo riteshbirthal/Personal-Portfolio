@@ -5,27 +5,28 @@
     align-items: center;
     width: 90%;
     height: 100vh;
-    /* padding-top: 2rem; */
-  }
+    padding-top: 2rem;
+}
   
-  .experience-title {
+.experience-title {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 2rem;
-  }
+}
 
-  .experience-intro{
+.experience-intro{
     width: 55%;
-  }
+}
 
-  .experience-details{
+.experience-details{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 10rem;
-  }
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
   
-  .exp-card {
+.exp-card {
     display: flex;
     flex-direction: column;
     width: 45%;
@@ -34,25 +35,82 @@
     margin: 1rem 2rem;
     padding: 2rem 4rem;
     background-color: rgba(10, 29, 63, 0.377);
-  }
+}
 
-  .job-meta-data{
+.job-meta-data{
     display: flex;
     flex-direction: row;
     /* justify-content: space-between; */
-  }
+}
   
-  .company-logo{
+.company-logo{
     text-align: center;
     align-items: center;
-  }
+}
   
-  .company-logo img{
-    width: 10rem;
+.company-logo img{
+    width: 15vw;
     margin: 0 4rem;
+}
+
+.exp-card ul li{
+    margin-bottom: 2%;
+}
+
+@media  screen and (max-width: 1200px) {
+  .experience-title {
+    font-size: 2rem;
   }
 
-  .exp-card ul li{
-    margin-bottom: 2%;
+  .experience-intro{
+      width: 80vw;
   }
+
+  .experience-details{
+      /* flex-direction: column; */
+      padding-top: 2rem;
+  }
+
+  .exp-card {
+      padding: 1rem 2rem;
+  }
+
+  .job-meta-data{
+      flex-direction: column;
+  }
+    
+  .company-logo img{
+      width: 25vw;
+      margin: 0 4rem;
+  }
+}
+
+@media  screen and (max-width: 1000px) {
+  .experience-title {
+      font-size: 2rem;
+  }
+
+  .experience-intro{
+      width: 80%;
+  }
+
+  .experience-details{
+      flex-direction: column;
+      padding-top: 2rem;
+  }
+  
+  .exp-card {
+      width: 70vw;
+      padding: 1rem 2rem;
+  }
+
+  .job-meta-data{
+      flex-direction: column;
+  }
+    
+  .company-logo img{
+      width: 40vw;
+      margin: 0 4rem;
+  }
+}
   

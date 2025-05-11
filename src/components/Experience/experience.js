@@ -4,7 +4,7 @@ import "./experience.css"
 function Experience() {
     return (
       <section id="experience" className="experience-info">
-        {/* <h1 className="experience-title">Professional Experience</h1> */}
+        <h1 className="experience-title">Professional Experience</h1>
         <p className="experience-intro">Over the years, I've had the opportunity to work with various teams on complex, challenging, and rewarding projects. Below is a summary of my professional experience, which highlights the roles I have taken on and the impact I've made in full-stack development, real-time systems, data processing, and API development.</p>
         <div className="experience-details">
           <div className="exp-card">

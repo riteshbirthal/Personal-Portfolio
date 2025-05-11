@@ -5,22 +5,19 @@
     align-items: center;
     width: 90%;
     height: 100vh;
-    /* margin-top: 10rem; */
-    /* top: 100%; */
-    /* padding: 2rem; */
 }
 
 .section-title{
     font-size: 3rem;
     font-weight: 700;
-    /* margin-top: 5rem; */
+    margin-top: 5rem;
 }
 
 .info-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 10rem;
+    padding: 2rem 0rem;
 }
 
 .col1{
@@ -47,8 +44,8 @@
 }
 
 .card-img img{
-    width: 56%;
-    border-radius: 50%;
+    width: 15vw;
+    border-radius: 2vw;
 }
 
 .card button{
@@ -65,5 +62,13 @@
 
 .card button:hover{
     box-shadow: 0 0 15px #727fde86;
+}
+
+@media  screen and (max-width: 1600px) {
+    
+}
+
+@media  screen and (max-width: 1200px) {
+    
 }
 

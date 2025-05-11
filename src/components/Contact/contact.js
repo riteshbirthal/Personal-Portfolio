@@ -50,7 +50,7 @@ function Contact(){
         <section id="contact" className="contact-section">
             <h1 className="section-title autoDisplay">Let's talk 🙂</h1>
             <div className="contact-columns">
-                <div className="social-box autoBlur">
+                <div className="social-box">
                     <h2>Important Links</h2>
                     <a href="https://www.linkedin.com/in/ritesh-birthal/"><i className='bx bxl-linkedin-square' ></i> Ritesh-Birthal</a>
                     <a href="https://leetcode.com/u/riteshbirthal/"><img src={`${process.env.PUBLIC_URL}/static/images/profile-logos/leetcode.png`} alt="Leetcode" /> LeetCode</a>
@@ -68,7 +68,7 @@ function Contact(){
                 </div>
 
 
-                <form className="contact-box autoBlur" onSubmit={handleSubmit} >
+                <form className="contact-box" onSubmit={handleSubmit} >
                     <p>I'm excited to connect! Whether you have a project idea, a question, or simply want to say hello, please fill out the form below and I'll get back to you soon.</p>
 
                     {msg && <p>{msg}</p>}
