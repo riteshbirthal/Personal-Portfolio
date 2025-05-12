@@ -11,7 +11,7 @@
     backdrop-filter: blur(10px);
     padding: 0 30px;
     box-shadow: 0 0 15px #72a1de68;
-    z-index: 2;
+    z-index: 3;
 }
 
 .logo{

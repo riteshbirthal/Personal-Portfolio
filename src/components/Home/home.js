@@ -6,6 +6,10 @@ function Home(){
     const navigate = useNavigate();
     return (
         <section id="home" className="home-container">
+            <div className="home-img-box">
+                <img src={`${process.env.PUBLIC_URL}/static/images/Photo3.jpg`} alt="Hi, I'm Ritesh Birthal - Full-Stack Developer" />
+            </div>
+            
             <div className="home-info">
                 <div className="home-info-title">
                     <i className='bx bxl-sketch' ></i> Full-Stack Developer Portfolio
@@ -19,9 +23,6 @@ function Home(){
                 <button onClick={() => navigate('/contact')}><i className='bx bx-send' ></i> Contact Me</button>
             </div>
 
-            <div className="home-img-box">
-                <img src={`${process.env.PUBLIC_URL}/static/images/Photo3.jpg`} alt="Hi, I'm Ritesh Birthal - Full-Stack Developer" />
-            </div>
         </section>
     );
 }
