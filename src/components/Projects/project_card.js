@@ -15,11 +15,11 @@ const ProjectCard = ({ image, name, techs_used, overview, features, impacts, pro
             </div>
             <div className={`project-details ${isExpanded ? 'expanded' : 'collapsed'} `}>
                 <h2>{name}</h2>
-                <p><b>Technologies Used:</b> {techs_used}</p>
+                {/* <p><b>Technologies Used:</b> {techs_used}</p>
                 <div className="project-overview">
                     <h3>Project Overview:</h3>
                     <p>{overview}</p>
-                </div>
+                </div> */}
                 <div className={`toggle-button ${isExpanded ? 'expanded' : 'collapsed'} `}>
                     <button className="expand-button" onClick={toggleExpand}>
                             Expand

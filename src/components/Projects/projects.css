@@ -1,12 +1,10 @@
 .my-projects{
     display: flex;
     flex-direction: column;
-    gap: 10%;
     align-items: center;
     position: relative;
     width: 80%;
     height: auto;
-    padding-top: 5rem;
 }
 
 .projects-intro{
@@ -16,4 +14,21 @@
 .project-cards{
     display: grid;
     grid-template-columns: auto auto auto;
+    padding-bottom: 5rem;
+}
+
+
+@media  screen and (max-width: 1600px) {
+    
+}
+
+@media  screen and (max-width: 1200px) {
+    .projects-intro{
+        width: 75vw;
+    }
+
+    .project-cards{
+        display: flex;
+        flex-direction: column;
+    }
 }
