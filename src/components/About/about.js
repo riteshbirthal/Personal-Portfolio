@@ -1,13 +1,9 @@
 import "./about.css"
+import { useNavigate } from 'react-router-dom';
 
 
 function About(){
-    const scrollToSection = (sectionId) => {
-        const section = document.getElementById(sectionId);
-        if (section) {
-          section.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
+    const navigate = useNavigate();
     return (
         <section id="about" className="info-section">
             <h1 className="section-title">About</h1>
@@ -33,7 +29,7 @@ function About(){
                         <h2>Technical Skills</h2>
                         <p>I have extensive experience with a range of technologies across both front-end and back-end development. My primary technical skills include: C++, Python, JavaScript, React.js, FastAPI, Streamlit, MongoDB, etc.
                         </p>
-                        <button onClick={() => scrollToSection('skills')}><i className='bx bx-send' ></i> For More Info Click Here...</button>
+                        <button onClick={() => navigate('/skills')}><i className='bx bx-send' ></i> For More Info Click Here...</button>
                     </div>
                     
                     <div className="card">

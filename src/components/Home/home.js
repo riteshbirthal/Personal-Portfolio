@@ -1,13 +1,9 @@
 import "./home.css"
+import { useNavigate } from 'react-router-dom';
 
 
 function Home(){
-    const scrollToSection = (sectionId) => {
-        const section = document.getElementById(sectionId);
-        if (section) {
-          section.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
+    const navigate = useNavigate();
     return (
         <section id="home" className="home-container">
             <div className="home-info">
@@ -20,7 +16,7 @@ function Home(){
                 
                 <p>Having worked in various industries, including at Carelon Global Solutions, I have contributed to key projects that involve data processing, API development, and the implementation of complex features in diverse environments. I take pride in writing clean, maintainable code and solving complex problems while staying updated with the latest tech trends and best practices. My commitment to continuous learning drives me to stay updated with the latest technologies and best practices.</p>
 
-                <button onClick={() => scrollToSection('contact')}><i className='bx bx-send' ></i> Contact Me</button>
+                <button onClick={() => navigate('/contact')}><i className='bx bx-send' ></i> Contact Me</button>
             </div>
 
             <div className="home-img-box">
