@@ -28,6 +28,7 @@
 }
 
 .project-card.collapsed{
+    text-align: center;
     flex-direction: column;
 }
 

@@ -66,7 +66,7 @@ function Skills(){
                                 <b>Foundations in Problem Solving: </b> I started with a strong focus on core Data Structures and Algorithms, which gave me the skills to solve complex problems.
                             </li>
                             <li>
-                                <b>Consistent Growth Through Challenges: </b> With 300+ consecutive days on LeetCode and 150+ consecutive days on GFG, I've developed a habit of tackling new challenges daily, improving both my speed and understanding of algorithms.
+                                <b>Consistent Growth Through Challenges: </b> With 450+ consecutive days on LeetCode and 250+ consecutive days on GFG, I've developed a habit of tackling new challenges daily, improving both my speed and understanding of algorithms.
                             </li>
                             <li>
                                 <b>Github Repository:  </b>  I believe in sharing my learning, so I've been uploading my solutions on GitHub to document my progress and make it available to others.

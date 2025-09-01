@@ -2,7 +2,7 @@ const projects_list = [
     [
         `${process.env.PUBLIC_URL}/static/images/projects/chitchat.png`,
 
-        "ChitChat Live (Real-Time Web Chat Application)",
+        "Chat App",
 
         "React.js, FastAPI, WebSocket, MongoDB, HTML/CSS",
 
@@ -67,7 +67,7 @@ const projects_list = [
     [
         `${process.env.PUBLIC_URL}/static/images/projects/restaurant1.png`,
         
-        "Restaurant App (Food Ordering and Table Reservation)",
+        "Restaurant App",
 
         "Django, Python, HTML/CSS, JavaScript",
 
